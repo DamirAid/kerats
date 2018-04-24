@@ -1,9 +1,5 @@
 $(document).ready(function() {
 	
-	$.stellar({
-	responsive: true,
-	horizontalOffset: 60
-});
 
 $('.owl-carousel').owlCarousel({
       loop:true,
