@@ -88,16 +88,7 @@ $(".map ").animated("zoomIn", "zoomOut");
 
 	$(".top_mnu ul a").mPageScroll2id();
 
-JQuery('.owl-carousel').owlCarousel({
-      loop:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true   
-        }
-    },
-    navText : ""
-});
+
 
 });
 
