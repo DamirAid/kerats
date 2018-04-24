@@ -55,13 +55,7 @@ $(".map ").animated("zoomIn", "zoomOut");
 	$(".left .resume_item").animated("fadeInLeft", "fadeOutDown");
 	$(".right .resume_item").animated("fadeInRight", "fadeOutDown");
 
-	function heightDetect() {
-		$(".main_head").css("height", $(window).height());
-	};
-	heightDetect();
-	$(window).resize(function() {
-		heightDetect();
-	});
+	
 
 	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");
@@ -108,6 +102,13 @@ jQuery('.owl-carousel').owlCarousel({
 });
 
 
+function heightDetect() {
+		$(".main_head").css("height", $(window).height());
+	};
+	heightDetect();
+	$(window).resize(function() {
+		heightDetect();
+	});
 
 $(window).load(function() {
 
