@@ -88,7 +88,7 @@ $(".map ").animated("zoomIn", "zoomOut");
 
 	$(".top_mnu ul a").mPageScroll2id();
 
-jQuery('.owl-carousel').owlCarousel({
+JQuery('.owl-carousel').owlCarousel({
       loop:true,
     responsive:{
         0:{
